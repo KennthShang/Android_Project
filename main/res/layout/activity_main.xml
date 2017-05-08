@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <RelativeLayout
+        android:id="@+id/R1"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/theme"
+        >
+        <ImageButton
+            android:id="@+id/Btn0"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:src="@mipmap/main0"/>
+
+        <ImageButton
+            android:id="@+id/Btn1"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/main4"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line"
+            android:layout_alignBottom="@+id/Btn1"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/L1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/R1"
+        android:background="@color/theme">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+            <ImageButton
+                android:id="@+id/tri_up"
+                android:layout_gravity="center"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@mipmap/tri_up"
+                android:layout_marginBottom="15dp"/>
+            <TextView
+                android:id="@+id/month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="八月"
+                android:textSize="18dp"/>
+            <TextView
+                android:id="@+id/day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  21"
+                android:textSize="20dp"/>
+            <ImageButton
+                android:id="@+id/tri_down"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@mipmap/tri_down"/>
+        </LinearLayout>
+
+        <ListView
+            android:scrollingCache="true"
+            android:id="@+id/LV0"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_weight="2">
+        </ListView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_weight="3">
+            <ListView
+                android:id="@+id/LV1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Btn8"
+                >
+            </ListView>
+            <Button
+                android:id="@+id/Btn8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="全部事件类别"
+                android:textColor="@color/line"
+                android:background="@color/theme"
+                android:layout_gravity="center"
+                android:textSize="18dp"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/R2"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/theme"
+        android:layout_below="@+id/L1"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="500dp"
+            android:layout_height="1dp"
+            android:background="@color/line"/>
+        <ImageButton
+            android:id="@+id/saveBtn"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/save"
+            android:layout_alignTop="@+id/Btn2" />
+        <ImageButton
+            android:id="@+id/Btn3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/main3"
+            android:layout_marginTop="10px"
+            android:layout_alignParentBottom="true"/>
+        <ImageButton
+            android:id="@+id/Btn2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toLeftOf="@+id/Btn3"
+            android:src="@mipmap/main2"
+            android:layout_marginTop="10px"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+</RelativeLayout>

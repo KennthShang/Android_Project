@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="title_addEvent">添加事件类别</string>
+    <string name="event_name_hint">活动名称:</string>
+    <string name="appwidget_text">当前活动：无    持续时间：无</string>
+    <string name="add_widget">Add_widget</string>
+</resources>

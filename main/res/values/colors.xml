@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="theme">#f8f8f8</color>
+    <color name="line">#666666</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="origin">#AAAAAA</color>
+    <color name="dark">#0097a7</color>
+    <color name="gray">#e0e0e0</color>
+    <color name="gray_dark">#666666</color>
+    <color name="black_alpha_light">#3c3f41</color>
+    <color name="black_light">#383838</color>
+    <color name="blue">#03a9f4</color>
+    <color name="red">#ff4081</color>
+    <color name="red_blue1">#ff00ff</color>
+    <color name="red_blue2">#990099</color>
+    <color name="red_blue3">#7722b3</color>
+    <color name="red_blue4">#990011</color>
+    <color name="red_blue5">#330099</color>
+    <color name="red_green1">#ffff00</color>
+    <color name="red_green2">#ff9900</color>
+    <color name="red_green3">#ff1100</color>
+    <color name="red_green4">#55ff00</color>
+    <color name="red_green5">#555500</color>
+    <color name="green_blue1">#00ffff</color>
+    <color name="green_blue2">#0099ff</color>
+    <color name="green_blue3">#0011ff</color>
+    <color name="green_blue4">#00ff99</color>
+    <color name="green_blue5">#003343</color>
+    <color name="green_blue6">#117733</color>
+</resources>
